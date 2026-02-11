@@ -21,7 +21,7 @@ dependency "vpc" {
   config_path = "../vpc"
 
   mock_outputs = {
-    vpc_subnet_id = "subnet-12345678"
+    vpc_subnet_id = "subnet-12345"
   }
 }
 
