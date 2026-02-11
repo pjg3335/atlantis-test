@@ -17,7 +17,7 @@ variable "subnet_id" {
 
 resource "aws_instance" "web" {
   ami           = "ami-0092e0c93f74c293a"
-  instance_type = "t3.micro"
+  instance_type = "t3.small"
   subnet_id     = var.subnet_id
 
   tags = { Name = "atlantis-test-ec2" }
